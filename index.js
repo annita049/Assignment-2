@@ -24,7 +24,7 @@ function findMax(arr){
 }
 console.log(findMax([1,2,5,-8,2,0]));
 
-// 3
+// 4
 function reverseString(str){
     let arr = str.split('');
     let reversed = arr.reverse().join('');
@@ -33,7 +33,7 @@ function reverseString(str){
 console.log(reverseString('Python'));
 
 
-// 4
+// 5
 function filterOddNumbers(arr){
     const filterednumbers = arr.filter(function(number){
         if (number % 2 != 0)
@@ -45,7 +45,7 @@ const arr = [1,2,3,4,5,6,7,8];
 console.log(filterOddNumbers(arr));
 
 
-// 5
+// 6
 function sumArray(arr){
     let sum = 0;
     arr.forEach(function(number){
@@ -55,14 +55,14 @@ function sumArray(arr){
 }
 console.log( sumArray([1,2,3]));
 
-// 6
+// 7
 function sortArray(arr){
     arr.sort();
     return arr;
 }
 console.log(sortArray([5,1,8,3,4]));
 
-// 7
+// 8
 function capitalizeFirstLetter(str){
     return str[0].toUpperCase() + str.slice(1);
 }
